@@ -1,5 +1,5 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.antarantar.home" version="1.0.0">
-  <name>Antar-Antar</name>
+  <name>Antar-Antar Beta Version</name>
   <description>One App For All Need.</description>
   <author href="http://arajang-studio.com" email="m.rivai.sali@gmail.com">Arajang Studio</author>
   <content src="index.html"/>
