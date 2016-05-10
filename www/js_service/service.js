@@ -8,7 +8,7 @@ $(document).ready(function(){
 
         $.ajax({
             type: "POST",
-            url: "http://10.174.213.253/antarantar_service/login.php",
+            url: "http://192.168.134.51/antarantar_service/login.php",
             dataType: "json",
             success : function(data){
                 $.each(data, function(key, value){
@@ -38,7 +38,7 @@ $(document).ready(function(){
                     var data = 'username=' + username + '&email=' + email + '&tgl_lahir=' + tgl_lahir + '&no_telp=' + no_telp +'&password=' + password;
                     $.ajax({
                         type: 'POST',
-                        url: "http://10.174.213.253/antarantar_service/daftar.php",
+                        url: "http://192.168.134.51/antarantar_service/daftar.php",
                         data: data,
                         success: function() {
                           window.location.href='index.html';
@@ -59,7 +59,7 @@ $(document).ready(function(){
                     var data = 'lokasi=' + lokasi + '&lokasi_detail=' + lokasi_detail + '&tujuan=' + tujuan + '&tujuan_detail=' + tujuan_detail +'&keterangan=' + keterangan;
                     $.ajax({
                         type: 'POST',
-                        url: "http://10.174.213.253/antarantar_service/pesan.php",
+                        url: "http://192.168.134.51/antarantar_service/pesan.php",
                         data: data,
                         success: function() {
                           window.location.href='antar-barang-list.html';
@@ -71,7 +71,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
         $.ajax({
-       url: "http://10.174.213.253/antarantar_service/data_pesan.php",
+       url: "http://192.168.134.51/antarantar_service/data_pesan.php",
         dataType: 'json',
         timeout: 5000,
         success: function(data, status){
