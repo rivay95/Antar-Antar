@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+<link rel="icon" type="image/png" href="img/splash/android-chrome-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" sizes="196x196" href="img/splash/apple-touch-icon-196x196.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/splash/apple-touch-icon-180x180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/splash/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/splash/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/splash/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/splash/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/splash/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/splash/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/splash/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="57x57" href="img/splash/apple-touch-icon-57x57.png">  
+<link rel="icon" type="image/png" href="img/splash/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="img/splash/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="img/splash/favicon-16x16.png" sizes="16x16">
+<link rel="shortcut icon" href="img/splash/favicon.ico" type="image/x-icon" /> 
+    
+<title>Antar antar</title>
+
+
+<link href="../css/style.css"           rel="stylesheet" type="text/css">
+<link href="../css/framework.css"       rel="stylesheet" type="text/css">
+<link href="../css/font-awesome.css"    rel="stylesheet" type="text/css">
+<link href="../css/animate.css"         rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jqueryui.js"></script>
+<script type="text/javascript" src="../js/framework-plugins.js"></script>
+<script type="text/javascript" src="../js/custom.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+<script type="text/javascript" src="../js_service/peta.js"></script>
+<script type="text/javascript" src="../js_service/service.js"></script>
+</head>
+<body class="sidebar"> 
+<div id="header-fixed">
+    <a class="open-left-sidebar" href="../index.html"><i class="fa fa-chevron-left"></i></a>
+</div>       
+    <div id="content" class="snap-content">
+      <div class="content">
+        <div class="header-clear"></div>
+         <div class="container-fullscreen">
+         <div class="maps" id="map-canvas" style="height: 250px">
+           
+         </div>
+         </div>  
+          <div class="container-fullscreen">
+               <div class="container heading-style-5">
+                    <h4 class="heading-title">Lokasi</h4>
+                    <i class="fa fa-map-marker heading-icon"  style="color:orange;" ></i>
+                    <div class="line bg-black"></div>
+                </div> 
+                <form action="" method="POST">
+                <div class="page-login full-bottom">
+                   
+                    <div class="login-input">
+                     <i class="fa fa-map-marker"></i>
+                            <input id="lokasi" type="text" placeholder="Masukan lokasi Anda">
+                    </div>   
+                    <div class="login-input">
+                          <i class="fa fa-file-text"></i>
+                            <input id="lokasi_detail" type="text" placeholder="Masukan lokasi Detail">
+                    </div>   
+                    </div>
+             
+  <div class="container heading-style-5">
+                    <h4 class="heading-title">Tujuan</h4>
+                    <i class="fa fa-map-marker heading-icon" style="color:green;"></i>
+                    <div class="line bg-black"></div>
+                </div> 
+                <div class="page-login full-bottom">
+                   
+                    <div class="login-input">
+                     <i class="fa fa-map-marker"></i>
+                            <input type="text" id="tujuan" placeholder="Masukan Tujuan Anda">
+                    </div>   
+                    <div class="login-input">
+                          <i class="fa fa-file-text"></i>
+                            <input id="tujuan_detail" type="text" placeholder="Masukan Tujuan Detail">
+                    </div>   
+                    <div class="clear"></div>
+                    <a id="lanjut" href="javascript:;" class="login-button button button-small button-orange button-fullscreen full-bottom">Lanjut</a>
+                    </div>
+              </form>
+                    </div>
+                  </div>
+            <!-- End of entire page content-->
+            </div> 
+        </div>
+    </div>  
+   
+</div>
+    
+    
+<!--Fly up share box and notifications go here -->
+<!--These are the only features that should be placed outside the all-elements class-->
+
+</body>
